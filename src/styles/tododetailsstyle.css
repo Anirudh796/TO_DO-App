@@ -1,0 +1,48 @@
+
+
+.div-title , .div-dueDate, .div-priority{
+    display:flex;
+    gap:3px;
+    align-items: center;
+    justify-content: space-;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 1px 1px 15px rgba(45, 159, 19, 0.2);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+.div-description{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.card-content{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.details-card{
+    width: 300px;
+    padding: 2rem 1rem;
+    border-radius: 2px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    margin: 0 auto;
+}
+
+.details-title , .details-description, .details-dueDate, .details-priority{
+    font-family: arial;
+    font-size: 20px;
+    color: red;
+}
+
+

@@ -1,0 +1,13 @@
+.cta-section {
+    background-color: white;
+    padding: 3rem 1rem;
+}
+
+.cards-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}

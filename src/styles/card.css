@@ -1,0 +1,101 @@
+.card{
+    width: 300px;
+    padding: 2rem 1rem;
+    border-radius: 2px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-2px);
+}
+
+.card h1 {
+    background-color: #FFFFFF;
+    width: 80%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    margin-bottom: 1rem ;
+    text-align: center;
+}
+
+
+
+.cta-card{
+    background-color: #FFFFFF;
+}
+
+.cta-btn{
+    border:none;
+    background-color: #219EBC;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover{
+    background-color: #40BEDD;
+    cursor: pointer;
+}
+
+
+
+.due-date, .description, .priority{
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+input[type="checkbox"]{
+    appearance:none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    outline:none;
+    margin-left: auto;
+
+}
+
+input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size:20px;
+    color:white;
+    content: "\f00c";
+    display:none;
+
+}
+
+input[type="checkbox"]:hover{
+    background-color: #a5a5a5;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #5bcd3e;
+}
+
+input[type="checkbox"]:checked:after{
+    display:block;
+}
+
+
+
